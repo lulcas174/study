@@ -1,10 +1,5 @@
 ## The trouble:
 
-After migrating all the machine jobs to southamerica-east1, I started seeing a lot of duplicated jobs.
-This happens because the structure in dataflow jobs doesn't kill the old jobs when starting another job for the same dataflow.
-It just spins up another job in a new region and leave the old job running in the old region.
-
-Therefore, the solution I found was to kill the old jobs, but I had difficulty finding this problem, mainly because I don't have all permissions in GCP
 
 
 ### Tecnhical happend in the trouble
